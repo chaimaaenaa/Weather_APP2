@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>Weather App Project  html css bootstrap JavaScript </title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <script src="script.js"></script>
-</body>
-</html>
+  <div class="nav d-flex text text-center ">
+    <div>
+      <img src="./img/logoo.png" alt="" width="50px" height="50px">
+      <h1>Weather App</h1>
+    </div>
+   
+    <div class="weather-input" >
+      <h3>Enter a City Name</h3>
+      <input class="city-input" type="text" placeholder="Beni-Mellal, F9ih bn salh , Khribga, casa">
+      <button class="search-btn">Search</button>
+      <!-- <div class="separator"></div> -->
+      <!-- <button class="location-btn">Use Current Location</button> --> 
+    </div>
+  </div>
+  <div class="container">
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>TODAY ( ______ )</h2>
+            <h6>Temperature: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </div>
+        </div>
+      </div>
+  </div>

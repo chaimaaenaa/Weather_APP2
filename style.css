@@ -1,0 +1,16 @@
+
+section{
+    background-color: rgb(161, 161, 238);
+}
+.today{
+    background-color: rgb(234, 234, 251);
+    border: solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+}
+#days{
+    display: flex;
+    margin-right: 10px;
+}
