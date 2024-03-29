@@ -1,3 +1,16 @@
+
+$( ".change" ).on("click", function() {
+    if( $( "body" ).hasClass( "dark" )) {
+        $( "body" ).removeClass( "dark" );
+        $( ".change" ).text( "OFF" );
+    } else {
+        $( "body" ).addClass( "dark" );
+        $( ".change" ).text( "ON" );
+    }
+});
+
+
+
 const cityInput = document.querySelector(".city-input");
 const searchButton = document.querySelector(".search-btn");
 const locationButton = document.querySelector(".location-btn");

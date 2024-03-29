@@ -9,6 +9,24 @@
 body {
   background: #E3F2FD;
 }
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .mode {
+        float:right;
+    }
+    .change {
+        cursor: pointer;
+        border: 1px solid #555;
+        border-radius: 40%;
+        width: 20px;
+        text-align: center;
+        padding: 5px;
+        margin-left: 8px;
+    }
+    .dark{
+        background-color: #222;
+        color: #e6e6e6;
+    }
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::*/
 .nav{
   display: flex;
   background-color: #b37beb;
@@ -37,9 +55,10 @@ img{
   padding: 30px;
 }
 h3{
-    margin-left: 200px;
+    margin-left: 99px;
   
 }
+
 .weather-input {
   width: 550px;
  
@@ -115,16 +134,18 @@ h3{
 .weather-data {
   width: 100%;
 }
-.weather-data .current-weather {
+.weather-data .current-weather { /*cadr the today */
   color: #fff;
   background: #b37beb;
+  width: 300px;
+  height: 300px;
   border-radius: 5px;
-  padding: 20px 70px 20px 20px;
+  padding: 20px 10px 20px 20px;
   display: flex;
   justify-content: space-between;
 }
 .current-weather h2 {
-  font-weight: 200;
+  font-weight: 50;
   font-size: 1.7rem;
   
 }
@@ -137,7 +158,7 @@ h3{
   text-align: center;
 }
 .current-weather .icon img {
-  max-width: 120px;
+  max-width: 100px;
   margin-top: -15px;
 }
 .current-weather .icon h6 {
